@@ -1,17 +1,18 @@
-
 .wrapper {
   background-color: #282a36;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  justify-items: center;
   height: 100vh;
 
   .container {
     display: flex;
+    grid-row-start: 2;
+    grid-column-start: 2;
     gap: 10px;
     flex-wrap: wrap;
-    width: 830px;
-    //height: 680px;
+    width: 790px;
 
     .card {
       background-color: #fffbf1;
@@ -30,6 +31,8 @@
   }
 
   .red-team {
+    grid-row-start: 2;
+    grid-column-start: 1;
     background-color: #942d21;
     width: 250px;
     height: 300px;
@@ -56,6 +59,8 @@
   }
 
   .blue-team {
+    grid-row-start: 2;
+    grid-column-start: 3;
     background-color: #1d84a0;
     width: 250px;
     height: 300px;
