@@ -6,17 +6,7 @@ import {FrontPageComponent} from "./components/front-page/front-page.component";
 const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot([
-    {
-      path: '',
-      component: MainComponent,
-      pathMatch: 'full'
-    },
-    {
-      path: '**',
-      component: FrontPageComponent
-    }
-  ])],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule {

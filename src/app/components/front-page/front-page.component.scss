@@ -1,0 +1,39 @@
+.container {
+  background-color: #282a36;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #50e293;
+  }
+
+  input {
+    background-color: #4b4579;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid #151c21;
+
+    :focus {
+      border: 2px solid #151c21;
+    }
+  }
+
+  button {
+    display: block;
+    background-color: #ffe346;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px auto;
+  }
+}
