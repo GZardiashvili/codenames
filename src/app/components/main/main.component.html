@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="red-team">
+    <h3>Red team</h3>
+    <h4>Operatives</h4>
+    <button>Join as Operative</button>
+    <h4>Spymasters</h4>
+    <button>Join as Spymaster</button>
+  </div>
+  <div class="container">
+    <div class="card" *ngFor="let word of word$ | async">
+      <p>{{word}}</p>
+    </div>
+  </div>
+
+  <div class="blue-team">
+    <h3>Blue team</h3>
+    <h4>Operatives</h4>
+    <button>Join as Operative</button>
+    <h4>Spymasters</h4>
+    <button>Join as Spymaster</button>
+  </div>
+</div>
+

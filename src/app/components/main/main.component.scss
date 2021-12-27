@@ -1,0 +1,83 @@
+
+.wrapper {
+  background-color: #282a36;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 830px;
+    //height: 680px;
+
+    .card {
+      background-color: #fffbf1;
+      //background-color: #ff5555;
+      //background-color: #8be9fd;
+      width: 150px;
+      height: 130px;
+      cursor: pointer;
+      line-height: 80px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      border-radius: 10px;
+
+    }
+  }
+
+  .red-team {
+    background-color: #942d21;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 0 10px -1px #000;
+
+    h4 {
+      line-height: 0;
+    }
+
+    button {
+      display: block;
+      background-color: #ffe346;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 5px auto;
+    }
+  }
+
+  .blue-team {
+    background-color: #1d84a0;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 0 10px -1px #000;
+
+    h4 {
+      line-height: 0;
+    }
+
+    button {
+      display: block;
+      background-color: #ffe346;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 150px;
+      height: 50px;
+      font-size: 15px;
+      font-weight: bold;
+      margin: 5px auto;
+    }
+  }
+}
