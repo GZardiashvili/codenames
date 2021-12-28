@@ -14,4 +14,7 @@ export class WordListService {
     return this.http.get<any>(`${environment.api}/word_list`)
   }
 
+  getWordById(id: string) {
+
+  }
 }
