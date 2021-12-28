@@ -15,9 +15,6 @@
     width: 790px;
 
     .card {
-      background-color: #fffbf1;
-      //background-color: #ff5555;
-      //background-color: #8be9fd;
       width: 150px;
       height: 130px;
       cursor: pointer;
@@ -26,6 +23,22 @@
       font-weight: bold;
       font-size: 25px;
       border-radius: 10px;
+    }
+
+    .neutral-card {
+      background-color: #fffbf1;
+    }
+
+    .red-card {
+      background-color: #ff5555;
+    }
+
+    .blue-card {
+      background-color: #8be9fd;
+    }
+
+    .bomb-card {
+      background-color: #090910;
     }
   }
 
@@ -44,17 +57,29 @@
       line-height: 0;
     }
 
-    button {
-      display: block;
-      background-color: #ffe346;
-      border-radius: 25px;
-      cursor: pointer;
-      width: 150px;
-      height: 50px;
-      font-size: 15px;
-      font-weight: bold;
-      margin: 5px auto;
-    }
+  }
+
+  .yellowBtn {
+    display: block;
+    background-color: #ffe346;
+    border-radius: 25px;
+    border: 1px solid #151c21;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px auto;
+  }
+
+  .joinedTeam {
+    display: none;
+  }
+
+  .player {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
   }
 
   .blue-team {
@@ -72,16 +97,8 @@
       line-height: 0;
     }
 
-    button {
-      display: block;
-      background-color: #ffe346;
-      border-radius: 25px;
-      cursor: pointer;
-      width: 150px;
-      height: 50px;
-      font-size: 15px;
-      font-weight: bold;
-      margin: 5px auto;
-    }
+
   }
+
+
 }

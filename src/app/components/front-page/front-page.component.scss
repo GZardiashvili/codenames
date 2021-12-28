@@ -19,8 +19,9 @@
     height: 50px;
     border-radius: 50px;
     border: 2px solid #151c21;
+    outline: none;
 
-    :focus {
+    &:focus {
       border: 2px solid #151c21;
     }
   }
@@ -35,5 +36,7 @@
     font-size: 15px;
     font-weight: bold;
     margin: 5px auto;
+    outline: none;
+    border: 1px solid #151c21;
   }
 }

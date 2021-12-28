@@ -1,29 +1,129 @@
 {
   "word_list": [
-    "indication",
-    "aid",
-    "menu",
-    "chain",
-    "eternal",
-    "freshman",
-    "exchange",
-    "contact",
-    "crusade",
-    "up",
-    "active",
-    "enlarge",
-    "creep",
-    "seat",
-    "recording",
-    "jungle",
-    "overcharge",
-    "packet",
-    "name",
-    "baseball",
-    "hike",
-    "confront",
-    "settlement",
-    "violation",
-    "bleed"
+    {
+      "id": "1",
+      "value": "indication",
+      "team": "red"
+    },
+    {
+      "id": "2",
+      "value": "aid",
+      "team": "blue"
+    },
+    {
+      "id": "3",
+      "value": "bleed",
+      "team": "neutral"
+    },
+    {
+      "id": "4",
+      "value": "violation",
+      "team": "blue"
+    },
+    {
+      "id": "5",
+      "value": "settlement",
+      "team": "red"
+    },
+    {
+      "id": "6",
+      "value": "hike",
+      "team": "red"
+    },
+    {
+      "id": "7",
+      "value": "confront",
+      "team": "neutral"
+    },
+    {
+      "id": "8",
+      "value": "name",
+      "team": "blue"
+    },
+    {
+      "id": "9",
+      "value": "baseball",
+      "team": "neutral"
+    },
+    {
+      "id": "10",
+      "value": "jungle",
+      "team": "bomb"
+    },
+    {
+      "id": "11",
+      "value": "overcharge",
+      "team": "neutral"
+    },
+    {
+      "id": "12",
+      "value": "recording",
+      "team": "red"
+    },
+    {
+      "id": "13",
+      "value": "seat",
+      "team": "red"
+    },
+    {
+      "id": "14",
+      "value": "creep",
+      "team": "blue"
+    },
+    {
+      "id": "15",
+      "value": "enlarge",
+      "team": "neutral"
+    },
+    {
+      "id": "16",
+      "value": "active",
+      "team": "neutral"
+    },
+    {
+      "id": "17",
+      "value": "up",
+      "team": "blue"
+    },
+    {
+      "id": "18",
+      "value": "crusade",
+      "team": "blue"
+    },
+    {
+      "id": "19",
+      "value": "exchange",
+      "team": "red"
+    },
+    {
+      "id": "20",
+      "value": "freshman",
+      "team": "neutral"
+    },
+    {
+      "id": "21",
+      "value": "eternal",
+      "team": "red"
+    },
+    {
+      "id": "22",
+      "value": "menu",
+      "team": "red"
+    },
+    {
+      "id": "23",
+      "value": "code",
+      "team": "neutral"
+    },
+    {
+      "id": "24",
+      "value": "chain",
+      "team": "blue"
+    },
+    {
+      "id": "25",
+      "value": "team",
+      "team": "red"
+    }
   ]
 }

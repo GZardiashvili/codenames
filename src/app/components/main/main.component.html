@@ -2,22 +2,31 @@
   <div class="red-team">
     <h3>Red team</h3>
     <h4>Operatives</h4>
-    <button>Join as Operative</button>
+    <button [ngClass]="joinedTeam.joinedRedOperative ? 'joinedTeam':'yellowBtn'" (click)="joinRedOperative()">Join as
+      Operative
+    </button>
     <h4>Spymasters</h4>
-    <button>Join as Spymaster</button>
+    <button [ngClass]="joinedTeam.joinedRedSpymaster ? 'joinedTeam':'yellowBtn'" (click)="joinRedSpymaster()">Join as
+      Spymaster
+    </button>
   </div>
   <div class="container">
-    <div class="card" *ngFor="let word of word$ | async">
-      <p>{{word}}</p>
+    <div role="button" (click)="pickCard(word.id)" class="card neutral-card" *ngFor="let word of wordList$ | async">
+      <p>{{word.value}}</p>
     </div>
   </div>
 
   <div class="blue-team">
     <h3>Blue team</h3>
     <h4>Operatives</h4>
-    <button>Join as Operative</button>
+    <button [ngClass]="joinedTeam.joinedBlueOperative ? 'joinedTeam':'yellowBtn'" (click)="joinBlueOperative()">Join as
+      Operative
+    </button>
+    <p [ngClass]="joinedTeam.joinedBlueOperative ? 'player': 'joinedTeam'">player</p>
     <h4>Spymasters</h4>
-    <button>Join as Spymaster</button>
+    <button [ngClass]="joinedTeam.joinedBlueSpymaster ? 'joinedTeam':'yellowBtn'" (click)="joinBlueSpymaster()">Join as
+      Spymaster
+    </button>
   </div>
 </div>
 
